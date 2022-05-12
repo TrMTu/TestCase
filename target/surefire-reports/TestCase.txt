@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: TestCase
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 0.077 s <<< FAILURE! - in TestCase
+Q4TestCase2  Time elapsed: 0.023 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Nhap sai roi nguoi ae
+	at TestCase.Q4TestCase2(TestCase.java:121)
+
+Q4TestCase3  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2.5> but was: <2.0>
+	at TestCase.Q4TestCase3(TestCase.java:131)
+
+Q3TestCase2  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3.025E9> but was: <-1.269967296E9>
+	at TestCase.Q3TestCase2(TestCase.java:91)
+
+Q3TestCase3  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <-3.025E9> but was: <1.269967296E9>
+	at TestCase.Q3TestCase3(TestCase.java:101)
+
+Q2TestCase2  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3.0E9> but was: <-1.294967296E9>
+	at TestCase.Q2TestCase2(TestCase.java:62)
+
+Q2TestCase3  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <-3.0E9> but was: <1.294967296E9>
+	at TestCase.Q2TestCase3(TestCase.java:72)
+
+Q1TestCase2  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3.0E9> but was: <-1.294967296E9>
+	at TestCase.Q1TestCase2(TestCase.java:34)
+
+Q1TestCase3  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <-3.0E9> but was: <1.294967296E9>
+	at TestCase.Q1TestCase3(TestCase.java:43)
+
