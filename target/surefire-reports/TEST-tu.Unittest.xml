@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tu.Unittest" time="82.542" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tu.Unittest" time="0.077" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,9 +15,9 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18\bin"/>
-    <property name="sun.java.command" value="C:\Users\TrMTu\AppData\Local\Temp\surefire1650222784789292887\surefirebooter2801403847565569935.jar C:\Users\TrMTu\AppData\Local\Temp\surefire1650222784789292887 2022-05-12T21-53-59_869-jvmRun1 surefire17111171640226843683tmp surefire_04361632694661389757tmp"/>
+    <property name="sun.java.command" value="C:\Users\TrMTu\AppData\Local\Temp\surefire3547306449303713156\surefirebooter9699621971982171555.jar C:\Users\TrMTu\AppData\Local\Temp\surefire3547306449303713156 2022-05-13T01-17-00_858-jvmRun1 surefire8079510263414948178tmp surefire_06998588734562865395tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="tu.Unittest#Q13TestCase2"/>
+    <property name="test" value="tu.Unittest#Q17TestCase22"/>
     <property name="surefire.test.class.path" value="C:\Users\TrMTu\Documents\NetBeansProjects\unitest\target\test-classes;C:\Users\TrMTu\Documents\NetBeansProjects\unitest\target\classes;C:\Users\TrMTu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\TrMTu\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\TrMTu\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\TrMTu\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\TrMTu\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\TrMTu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\TrMTu\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\TrMTu"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\TrMTu\AppData\Local\Temp\surefire1650222784789292887\surefirebooter2801403847565569935.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\TrMTu\AppData\Local\Temp\surefire3547306449303713156\surefirebooter9699621971982171555.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="18+36-2087"/>
@@ -58,9 +58,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="Q13TestCase2" classname="tu.Unittest" time="82.507">
-    <failure message="expected: &lt;-2.98632863E8&gt; but was: &lt;1.2586269025E10&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <-2.98632863E8> but was: <1.2586269025E10>
-	at tu.Unittest.Q13TestCase2(Unittest.java:349)
+  <testcase name="Q17TestCase22" classname="tu.Unittest" time="0.058">
+    <failure message="expected: &lt;4&gt; but was: &lt;0&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <4> but was: <0>
+	at tu.Unittest.Q17TestCase22(Unittest.java:462)
 ]]></failure>
   </testcase>
 </testsuite>
