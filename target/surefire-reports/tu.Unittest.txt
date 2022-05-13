@@ -1,8 +1,96 @@
 -------------------------------------------------------------------------------
 Test set: tu.Unittest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.077 s <<< FAILURE! - in tu.Unittest
-Q17TestCase22  Time elapsed: 0.058 s  <<< FAILURE!
+Tests run: 48, Failures: 23, Errors: 0, Skipped: 0, Time elapsed: 88.734 s <<< FAILURE! - in tu.Unittest
+Q17TestCase2  Time elapsed: 0.011 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <6> but was: <0>
+	at tu.Unittest.Q17TestCase2(Unittest.java:457)
+
+Q17TestCase3  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <5> but was: <0>
+	at tu.Unittest.Q17TestCase3(Unittest.java:467)
+
+Q17TestCase4  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <5> but was: <0>
+	at tu.Unittest.Q17TestCase4(Unittest.java:472)
+
+Q16TestCase2  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Nhap sai roi cha noi
+	at tu.Unittest.Q16TestCase2(Unittest.java:421)
+
+Q16TestCase3  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Nhap sai roi cha
+	at tu.Unittest.Q16TestCase3(Unittest.java:434)
+
+Q16TestCase4  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Nhap sai roi cha
+	at tu.Unittest.Q16TestCase4(Unittest.java:443)
+
+Q17TestCase22  Time elapsed: 0.001 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <4> but was: <0>
 	at tu.Unittest.Q17TestCase22(Unittest.java:462)
+
+Q9TestCase1  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2> but was: <1>
+	at tu.Unittest.Q9TestCase1(Unittest.java:249)
+
+Q9TestCase2  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2> but was: <1>
+	at tu.Unittest.Q9TestCase2(Unittest.java:258)
+
+Q15TestCase2  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at tu.Unittest.Q15TestCase2(Unittest.java:396)
+
+Q14TestCase2  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at tu.Unittest.Q14TestCase2(Unittest.java:369)
+
+Q14TestCase3  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
+	at tu.Unittest.Q14TestCase3(Unittest.java:378)
+
+Q13TestCase2  Time elapsed: 87.037 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <-2.98632863E8> but was: <1.2586269025E10>
+	at tu.Unittest.Q13TestCase2(Unittest.java:352)
+
+Q11TestCase2  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3.0E9> but was: <2.147483647E9>
+	at tu.Unittest.Q11TestCase2(Unittest.java:317)
+
+Q4TestCase2  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Nhap sai roi, nhap lai b khac 0 di nguoi ae!!! 
+	at tu.Unittest.Q4TestCase2(Unittest.java:128)
+
+Q4TestCase3  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2.5> but was: <2.0>
+	at tu.Unittest.Q4TestCase3(Unittest.java:141)
+
+Q3TestCase2  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3.025E9> but was: <-1.269967296E9>
+	at tu.Unittest.Q3TestCase2(Unittest.java:93)
+
+Q3TestCase3  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <-3.025E9> but was: <1.269967296E9>
+	at tu.Unittest.Q3TestCase3(Unittest.java:103)
+
+Q2TestCase2  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3.0E9> but was: <-1.294967296E9>
+	at tu.Unittest.Q2TestCase2(Unittest.java:63)
+
+Q1TestCase2  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3.0E9> but was: <-1.294967296E9>
+	at tu.Unittest.Q1TestCase2(Unittest.java:31)
+
+Q1TestCase3  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <-3.0E9> but was: <1.294967296E9>
+	at tu.Unittest.Q1TestCase3(Unittest.java:39)
+
+Q16TestCase22  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <-3> but was: <-1>
+	at tu.Unittest.Q16TestCase22(Unittest.java:426)
+
+Q11TestCase22  Time elapsed: 1.575 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3.0E9> but was: <2.147483647E9>
+	at tu.Unittest.Q11TestCase22(Unittest.java:325)
 
